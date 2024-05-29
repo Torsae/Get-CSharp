@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loops
+namespace ForEachWhileLoops
 {
     internal class ClearLine
     {
-        public static void ClearLastLine()
+        public static void Run()
         {
             Console.SetCursorPosition(0, Console.CursorTop);
             Console.Write(new string(' ', Console.BufferWidth));

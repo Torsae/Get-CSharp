@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loops
+namespace ForEachWhileLoops
 {
     internal class ForEachLoop
     {
         public void Run()
         {
             PrintToConsole();
-            //Console.ReadKey();
         }
 
         private static void PrintToConsole()
