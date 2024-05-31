@@ -21,7 +21,7 @@ namespace ForEachWhileLoops
             {
                 if (i < 10)
                 {
-                    Console.WriteLine($"Round #{i} what");
+                    Console.WriteLine($"Round #{i}");
                     i++;
                 }
                 else
